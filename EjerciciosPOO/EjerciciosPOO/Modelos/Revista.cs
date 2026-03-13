@@ -9,45 +9,42 @@ namespace EjerciciosPOO
 {
     internal class Revista: MaterialBiblioteca, IPrestable
     {
-        public String Periodicidad { get; set; }
-        public int NumeroEdicion { get; set; }
+        int Numero_edicion { get; set; }
+        string Periodicidad { get; set; }
+        int Numero_Paginas { get; set; }
+        string Editorial { get; set; }
 
-        public Revista(int id, string titulo, string autor, int añoPublicacion, TipoCategoria categoria,
-                       int numeroEdicion, string periodicidad)
-            : base(id, titulo, autor, añoPublicacion, categoria)
+        public Revista(int id, string titulo, string autor, int yearpublication, TipoCategoria categoria, int numero_edicion, string periodicidad, int numero_paginas, string editorial) : base(id, titulo, autor, yearpublication, categoria)
         {
-            NumeroEdicion = numeroEdicion;
-            Periodicidad = periodicidad;
+            this.Numero_edicion = numero_edicion;
+            this.Periodicidad = periodicidad;
+            this.Numero_Paginas = numero_paginas;
+            this.Editorial = editorial;
         }
 
         public override void MostrarInformacion()
         {
             base.MostrarInformacion();
-            Console.WriteLine($"Periodicidad: {Periodicidad}");
-            Console.WriteLine($"Número de Edición: {NumeroEdicion}");
-            Console.WriteLine("Tipo: Revista");
-        }
 
+            Console.WriteLine($"Numero edicion: {Numero_edicion}");
+            Console.WriteLine($"Periodicidad: {Periodicidad}");
+            Console.WriteLine($"Numero de paginas: {Numero_Paginas}");
+            Console.WriteLine($"Editorial: {Editorial}");
+        }
         public DateTime CalcularFechaDevolucion()
         {
-            return DateTime.Now.AddDays(7);
+            return DateTime.Now.AddDays(15);
         }
 
-        public void GenerarComprobantePrestramo()
+        public void GenerarComprobantePrestamo()
         {
-            Console.WriteLine("=== COMPROBANTE DE PRÉSTAMO - REVISTA ===");
-            Console.WriteLine($"Revista: {titulo}");
-            Console.WriteLine($"Autor: {autor}");
-            Console.WriteLine($"Edición: {NumeroEdicion}");
-            Console.WriteLine($"Periodicidad: {Periodicidad}");
-            Console.WriteLine($"Fecha de Préstamo: {DateTime.Now:dd/MM/yyyy}");
-            Console.WriteLine($"Fecha de Devolución: {CalcularFechaDevolucion():dd/MM/yyyy}");
-            Console.WriteLine("=========================================");
+            Console.WriteLine("Se genero el comprobante de la revista con exito!");
         }
 
         public decimal CalcularMultaPorRetraso(int diasRetraso)
         {
-            return diasRetraso * 0.30m;
+            Console.Write("Su multa sera de ");
+            return diasRetraso * 1000;
         }
     }
 }

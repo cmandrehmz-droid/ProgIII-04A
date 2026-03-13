@@ -1,13 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Sistema de Concesionario de Vehículos",
+    "\\EjerciciosPOO",
+    "\\EjerciciosPOO\\EjerciciosPOO",
     "\\Sistema de Concesionario de Vehículos\\Sistema de Concesionario de Vehículos",
     "\\Sistema de Concesionario de Vehículos\\Sistema de Concesionario de Vehículos\\Enums",
     "\\Sistema de Concesionario de Vehículos\\Sistema de Concesionario de Vehículos\\Modelos",
-    "\\SistemaRestaurante",
     "\\SistemaRestaurante\\SistemaRestaurante"
   ],
-  "SelectedNode": "\\Sistema de Concesionario de Vehículos\\Sistema de Concesionario de Vehículos\\Modelos\\Vehiculo.cs",
+  "SelectedNode": "\\EjerciciosPOO\\EjerciciosPOO\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

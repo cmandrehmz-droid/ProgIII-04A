@@ -9,42 +9,40 @@ namespace EjerciciosPOO
 {
     internal class Libro: MaterialBiblioteca, IPrestable
     {
-        public String ISBN { get; set; }
-        public String NumeroPaginas { get; set; }
+        int ISBN { get; set; }
+        int Numero_paginas { get; set; }
 
-        public Libro(int id, string titulo, string autor, int añoPublicacion, TipoCategoria categoria,
-                     int numeroPaginas, string isbn)
-            : base(id, titulo, autor, añoPublicacion, categoria)
+        public Libro(int id, string titulo, string autor, int yearpublication, TipoCategoria categoria, int isbn, int numero_paginas) : base(id, titulo, autor, yearpublication, categoria)
         {
-            NumeroPaginas = NumeroPaginas;
-            ISBN = isbn;
+            this.Numero_paginas = numero_paginas;
+            this.ISBN = isbn;
         }
+
 
         public override void MostrarInformacion()
         {
             base.MostrarInformacion();
-            Console.WriteLine($"ISBN: {ISBN}");
-            Console.WriteLine($"Número de Páginas: {NumeroPaginas}");
-            Console.WriteLine("Tipo: Libro");
-        }
 
+            Console.WriteLine($"ISBN: {ISBN}");
+            Console.WriteLine($"Numero de paginas: {Numero_paginas}");
+        }
         public DateTime CalcularFechaDevolucion()
         {
-            return DateTime.Now.AddDays(14); 
+            return DateTime.Now.AddDays(15);
         }
 
-        public void GenerarComprobantePrestramo()
+        public void GenerarComprobantePrestamo()
         {
-            Console.WriteLine($"Comprobante de Préstamo:");
-            Console.WriteLine($"Título: {titulo}");
-            Console.WriteLine($"Autor: {autor}");
-            Console.WriteLine($"Fecha de Préstamo: {DateTime.Now.ToShortDateString()}");
-            Console.WriteLine($"Fecha de Devolución: {CalcularFechaDevolucion().ToShortDateString()}");
+            Console.WriteLine("Se genero el comprobante del libro con exito!");
         }
 
         public decimal CalcularMultaPorRetraso(int diasRetraso)
         {
-            return diasRetraso * 0.50m;
+
+            Console.Write($"Su multa sera de {diasRetraso * 1000} ");
+            Console.WriteLine("");
+            return diasRetraso;
+
         }
     }
 }

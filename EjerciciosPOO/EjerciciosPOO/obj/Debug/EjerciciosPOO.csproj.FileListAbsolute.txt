@@ -1,0 +1,7 @@
+C:\Users\mezac\OneDrive\Documentos\GitHub\ProgIII-04A\EjerciciosPOO\EjerciciosPOO\bin\Debug\EjerciciosPOO.exe.config
+C:\Users\mezac\OneDrive\Documentos\GitHub\ProgIII-04A\EjerciciosPOO\EjerciciosPOO\bin\Debug\EjerciciosPOO.exe
+C:\Users\mezac\OneDrive\Documentos\GitHub\ProgIII-04A\EjerciciosPOO\EjerciciosPOO\bin\Debug\EjerciciosPOO.pdb
+C:\Users\mezac\OneDrive\Documentos\GitHub\ProgIII-04A\EjerciciosPOO\EjerciciosPOO\obj\Debug\EjerciciosPOO.csproj.AssemblyReference.cache
+C:\Users\mezac\OneDrive\Documentos\GitHub\ProgIII-04A\EjerciciosPOO\EjerciciosPOO\obj\Debug\EjerciciosPOO.csproj.CoreCompileInputs.cache
+C:\Users\mezac\OneDrive\Documentos\GitHub\ProgIII-04A\EjerciciosPOO\EjerciciosPOO\obj\Debug\EjerciciosPOO.exe
+C:\Users\mezac\OneDrive\Documentos\GitHub\ProgIII-04A\EjerciciosPOO\EjerciciosPOO\obj\Debug\EjerciciosPOO.pdb

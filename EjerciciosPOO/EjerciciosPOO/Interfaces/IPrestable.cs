@@ -9,8 +9,9 @@ namespace EjerciciosPOO.Interfaces
     public interface IPrestable
     {
         DateTime CalcularFechaDevolucion();
-        void GenerarComprobantePrestramo();
-        decimal CalcularMultaPorRetraso(int diasRetraso);
 
+        void GenerarComprobantePrestamo();
+
+        decimal CalcularMultaPorRetraso(int diasRetraso);
     }
 }

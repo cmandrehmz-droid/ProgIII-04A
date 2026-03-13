@@ -8,13 +8,7 @@ namespace EjerciciosPOO
 {
         public enum TipoCategoria
         {
-            Novela,
-            CienciaFiccion,
-            Fantasia,
-            Historia,
-            Biografia,
-            Autoayuda,
-            Infantil
+        Ficcion, NoFiccion, Ciencia, Historia, Tecnologia, SinCategoria
         }
     
 }

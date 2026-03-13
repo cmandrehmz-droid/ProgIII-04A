@@ -9,45 +9,36 @@ namespace EjerciciosPOO
 {
     internal class AudioLibro: MaterialBiblioteca, IPrestable
     {
-        public String Narrador { get; set; }
-        public TimeSpan Duracion { get; set; }
+        TimeSpan Duracion { get; set; }
+        string Narrador { get; set; }
 
-        public AudioLibro(int id, string titulo, string autor, int añoPublicacion, TipoCategoria categoria,
-                          TimeSpan duracion, string narrador)
-            : base(id, titulo, autor, añoPublicacion, categoria)
+        public AudioLibro(int id, string titulo, string autor, int yearpublication, TipoCategoria categoria, TimeSpan duracion, string narrador) : base(id, titulo, autor, yearpublication, categoria)
         {
-            Duracion = duracion;
-            Narrador = narrador;
+            this.Duracion = duracion;
+            this.Narrador = narrador;
         }
 
         public override void MostrarInformacion()
         {
             base.MostrarInformacion();
-            Console.WriteLine($"Narrador: {Narrador}");
-            Console.WriteLine($"Duración: {Duracion}");
-            Console.WriteLine("Tipo: Audiolibro");
-        }
 
+            Console.WriteLine($"Duracion: {Duracion}");
+            Console.WriteLine($"Narrador: {Narrador}");
+        }
         public DateTime CalcularFechaDevolucion()
         {
-            return DateTime.Now.AddDays(14);
+            return DateTime.Now.AddDays(15);
         }
 
-        public void GenerarComprobantePrestramo()
+        public void GenerarComprobantePrestamo()
         {
-            Console.WriteLine("=== COMPROBANTE DE PRÉSTAMO - AUDIOLIBRO ===");
-            Console.WriteLine($"AudioLibro: {titulo}");
-            Console.WriteLine($"Autor: {autor}");
-            Console.WriteLine($"Narrador: {Narrador}");
-            Console.WriteLine($"Duración: {Duracion.Hours:D2}:{Duracion.Minutes:D2}:{Duracion.Seconds:D2}");
-            Console.WriteLine($"Fecha de Préstamo: {DateTime.Now:dd/MM/yyyy}");
-            Console.WriteLine($"Fecha de Devolución: {CalcularFechaDevolucion():dd/MM/yyyy}");
-            Console.WriteLine("===========================================");
+            Console.WriteLine("Se genero el comprobante del audiolibro con exito!");
         }
 
         public decimal CalcularMultaPorRetraso(int diasRetraso)
         {
-            return diasRetraso * 0.75m;
+            Console.Write("Su multa sera de ");
+            return diasRetraso * 1000;
         }
 
     }

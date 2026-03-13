@@ -5,6 +5,30 @@
     {
       "AbsoluteMoniker": "D:0:0:{F2818368-2553-4771-8E6F-2C117DFA5F4D}|EjerciciosPOO\\EjerciciosPOO.csproj|c:\\users\\mezac\\onedrive\\documentos\\github\\progiii-04a\\ejerciciospoo\\ejerciciospoo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2818368-2553-4771-8E6F-2C117DFA5F4D}|EjerciciosPOO\\EjerciciosPOO.csproj|solutionrelative:ejerciciospoo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2818368-2553-4771-8E6F-2C117DFA5F4D}|EjerciciosPOO\\EjerciciosPOO.csproj|C:\\Users\\mezac\\OneDrive\\Documentos\\GitHub\\ProgIII-04A\\EjerciciosPOO\\ejerciciospoo\\modelos\\revista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2818368-2553-4771-8E6F-2C117DFA5F4D}|EjerciciosPOO\\EjerciciosPOO.csproj|solutionrelative:ejerciciospoo\\modelos\\revista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2818368-2553-4771-8E6F-2C117DFA5F4D}|EjerciciosPOO\\EjerciciosPOO.csproj|C:\\Users\\mezac\\OneDrive\\Documentos\\GitHub\\ProgIII-04A\\EjerciciosPOO\\ejerciciospoo\\modelos\\materialbiblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2818368-2553-4771-8E6F-2C117DFA5F4D}|EjerciciosPOO\\EjerciciosPOO.csproj|solutionrelative:ejerciciospoo\\modelos\\materialbiblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2818368-2553-4771-8E6F-2C117DFA5F4D}|EjerciciosPOO\\EjerciciosPOO.csproj|C:\\Users\\mezac\\OneDrive\\Documentos\\GitHub\\ProgIII-04A\\EjerciciosPOO\\ejerciciospoo\\modelos\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2818368-2553-4771-8E6F-2C117DFA5F4D}|EjerciciosPOO\\EjerciciosPOO.csproj|solutionrelative:ejerciciospoo\\modelos\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2818368-2553-4771-8E6F-2C117DFA5F4D}|EjerciciosPOO\\EjerciciosPOO.csproj|C:\\Users\\mezac\\OneDrive\\Documentos\\GitHub\\ProgIII-04A\\EjerciciosPOO\\ejerciciospoo\\modelos\\audiolibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2818368-2553-4771-8E6F-2C117DFA5F4D}|EjerciciosPOO\\EjerciciosPOO.csproj|solutionrelative:ejerciciospoo\\modelos\\audiolibro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2818368-2553-4771-8E6F-2C117DFA5F4D}|EjerciciosPOO\\EjerciciosPOO.csproj|C:\\Users\\mezac\\OneDrive\\Documentos\\GitHub\\ProgIII-04A\\EjerciciosPOO\\ejerciciospoo\\interfaces\\iprestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2818368-2553-4771-8E6F-2C117DFA5F4D}|EjerciciosPOO\\EjerciciosPOO.csproj|solutionrelative:ejerciciospoo\\interfaces\\iprestable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2818368-2553-4771-8E6F-2C117DFA5F4D}|EjerciciosPOO\\EjerciciosPOO.csproj|C:\\Users\\mezac\\OneDrive\\Documentos\\GitHub\\ProgIII-04A\\EjerciciosPOO\\ejerciciospoo\\enums\\tipocategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2818368-2553-4771-8E6F-2C117DFA5F4D}|EjerciciosPOO\\EjerciciosPOO.csproj|solutionrelative:ejerciciospoo\\enums\\tipocategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +38,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IPrestable.cs",
+              "DocumentMoniker": "C:\\Users\\mezac\\OneDrive\\Documentos\\GitHub\\ProgIII-04A\\EjerciciosPOO\\EjerciciosPOO\\Interfaces\\IPrestable.cs",
+              "RelativeDocumentMoniker": "EjerciciosPOO\\Interfaces\\IPrestable.cs",
+              "ToolTip": "C:\\Users\\mezac\\OneDrive\\Documentos\\GitHub\\ProgIII-04A\\EjerciciosPOO\\EjerciciosPOO\\Interfaces\\IPrestable.cs",
+              "RelativeToolTip": "EjerciciosPOO\\Interfaces\\IPrestable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T14:26:38.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\mezac\\OneDrive\\Documentos\\GitHub\\ProgIII-04A\\EjerciciosPOO\\EjerciciosPOO\\Modelos\\Libro.cs",
+              "RelativeDocumentMoniker": "EjerciciosPOO\\Modelos\\Libro.cs",
+              "ToolTip": "C:\\Users\\mezac\\OneDrive\\Documentos\\GitHub\\ProgIII-04A\\EjerciciosPOO\\EjerciciosPOO\\Modelos\\Libro.cs",
+              "RelativeToolTip": "EjerciciosPOO\\Modelos\\Libro.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAAC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T14:11:22.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Revista.cs",
+              "DocumentMoniker": "C:\\Users\\mezac\\OneDrive\\Documentos\\GitHub\\ProgIII-04A\\EjerciciosPOO\\EjerciciosPOO\\Modelos\\Revista.cs",
+              "RelativeDocumentMoniker": "EjerciciosPOO\\Modelos\\Revista.cs",
+              "ToolTip": "C:\\Users\\mezac\\OneDrive\\Documentos\\GitHub\\ProgIII-04A\\EjerciciosPOO\\EjerciciosPOO\\Modelos\\Revista.cs",
+              "RelativeToolTip": "EjerciciosPOO\\Modelos\\Revista.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T14:10:53.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AudioLibro.cs",
+              "DocumentMoniker": "C:\\Users\\mezac\\OneDrive\\Documentos\\GitHub\\ProgIII-04A\\EjerciciosPOO\\EjerciciosPOO\\Modelos\\AudioLibro.cs",
+              "RelativeDocumentMoniker": "EjerciciosPOO\\Modelos\\AudioLibro.cs",
+              "ToolTip": "C:\\Users\\mezac\\OneDrive\\Documentos\\GitHub\\ProgIII-04A\\EjerciciosPOO\\EjerciciosPOO\\Modelos\\AudioLibro.cs",
+              "RelativeToolTip": "EjerciciosPOO\\Modelos\\AudioLibro.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwCkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T14:10:27.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MaterialBiblioteca.cs",
+              "DocumentMoniker": "C:\\Users\\mezac\\OneDrive\\Documentos\\GitHub\\ProgIII-04A\\EjerciciosPOO\\EjerciciosPOO\\Modelos\\MaterialBiblioteca.cs",
+              "RelativeDocumentMoniker": "EjerciciosPOO\\Modelos\\MaterialBiblioteca.cs",
+              "ToolTip": "C:\\Users\\mezac\\OneDrive\\Documentos\\GitHub\\ProgIII-04A\\EjerciciosPOO\\EjerciciosPOO\\Modelos\\MaterialBiblioteca.cs",
+              "RelativeToolTip": "EjerciciosPOO\\Modelos\\MaterialBiblioteca.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAQwCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T14:09:51.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TipoCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\mezac\\OneDrive\\Documentos\\GitHub\\ProgIII-04A\\EjerciciosPOO\\EjerciciosPOO\\Enums\\TipoCategoria.cs",
+              "RelativeDocumentMoniker": "EjerciciosPOO\\Enums\\TipoCategoria.cs",
+              "ToolTip": "C:\\Users\\mezac\\OneDrive\\Documentos\\GitHub\\ProgIII-04A\\EjerciciosPOO\\EjerciciosPOO\\Enums\\TipoCategoria.cs",
+              "RelativeToolTip": "EjerciciosPOO\\Enums\\TipoCategoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T14:06:54.716Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -28,7 +130,7 @@
               "RelativeDocumentMoniker": "EjerciciosPOO\\Program.cs",
               "ToolTip": "C:\\Users\\mezac\\OneDrive\\Documentos\\GitHub\\ProgIII-04A\\EjerciciosPOO\\EjerciciosPOO\\Program.cs",
               "RelativeToolTip": "EjerciciosPOO\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAAAKkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-10T13:57:11.992Z",
               "EditorCaption": ""
